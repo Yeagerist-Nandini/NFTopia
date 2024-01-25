@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.gradient-bg{
+  background: #fc00ff;  
+  background: -webkit-linear-gradient(to right, #00dade, #fc00ff);  
+  background: linear-gradient(to right, #124872, #fc00ff); 
+
+  /* background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%); */
+
+  /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
+
+  /* background: #c31432;
+background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+background: linear-gradient(to right, #240b36, #c31432);   */
+}
+
+.gradient-bg-hero {
+  background-color: #151c25;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsl(302deg 25% 18%) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsl(0deg 39% 30%) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+}
+
+.gradient-bg-artworks {
+  background-color: #0f0e13;
+  background-image: radial-gradient(
+      at 50% 50%,
+      hsl(302deg 25% 18%) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 50%, hsla(339, 39%, 25%, 1) 0, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #151c25;
+  background-image: radial-gradient(
+      at 0% 100%,
+      hsl(0deg 39% 30%) 0,
+      transparent 53%
+    ),
+    radial-gradient(at 50% 150%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+}
+
+.limit{
+  height: 80px;
+  overflow: hidden;
+
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(#e9cdf0, #b90ef2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+}
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
