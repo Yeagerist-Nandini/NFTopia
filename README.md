@@ -28,26 +28,15 @@ This project is a decentralized NFT (Non-Fungible Token) marketplace that allows
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/nft-marketplace.git`
+1. Clone the repository: `git clone https://github.com/Yeagerist-Nandini/NFTopia.git`
 2. Install dependencies: `npm install`
 3. Compile smart contracts: `npx hardhat compile`
 4. Deploy the smart contracts to your chosen Ethereum network: `npx hardhat deploy`
 
 ### Frontend Setup
 
-1. Navigate to the `frontend` directory: `cd frontend`
+1. Navigate to the `NFTopia` directory: `cd NFTopia`
 2. Install frontend dependencies: `npm install`
 3. Start the React app: `npm start`
 4. Access the NFT marketplace at `http://localhost:3000`
 
-## Contributing
-
-Feel free to contribute to the project by opening issues or submitting pull requests. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Special thanks to [name] for [specific contribution or inspiration].
